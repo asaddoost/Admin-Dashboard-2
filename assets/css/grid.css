@@ -156,7 +156,7 @@
 
 .sidebar-container {
     height: calc(100vh - 3.5rem);
-    /* position: fixed; */
+    position: fixed;
     right: 0;
     top: 3.5rem;
     z-index: 1000;
@@ -239,6 +239,7 @@
 .sidebar-dropdown-toggle .angle {
     float: left;
     padding: .4rem 0;
+
 }
 
 .sidebar-dropdown a, button {
@@ -319,6 +320,28 @@ border: 1px solid rgba(255, 255, 255, 0.041);
     font-size: .7rem;
     cursor: pointer;
 }
+
+/* ============= table start ==================*/
+.table th {
+    font-size: .9rem;
+}
+.table p {
+    font-size: .8rem;
+}
+.table td {
+    font-size: .8rem;
+}
+
+.card-title {
+    font-size: 1.2rem;
+}
+
+
+
+
+
+/* ------------- table start ------------------*/
+
 
 
 /* ============= activity line start ==================*/
@@ -449,3 +472,21 @@ border: 1px solid rgba(255, 255, 255, 0.041);
     }
 }
 
+@media only screen and (max-width:575.98px){
+
+    .header-notification {
+        position: absolute;
+        left: -4rem;
+        width: 13rem;
+        z-index: 100;
+        
+    }
+
+    .header-comment {
+        width: 15rem;
+        left: -3.9rem;
+        z-index: 100;
+        
+    }
+
+}
